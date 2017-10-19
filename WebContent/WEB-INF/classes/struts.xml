@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+ 
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation"
+        value="false" />
+    <constant name="struts.devMode" value="false" />
+    <constant name="struts.custom.i18n.resources"
+        value="ApplicationResources" />
+ 
+    <package name="default" extends="struts-default" namespace="/">
+        <action name="login"
+            class="com.actions.LoginAction">
+            <result name="success">Home.jsp</result>
+            <result name="error">Login.jsp</result>
+        </action>
+        <action name="logout" 
+          class="com.actions.LoginAction" method="logout">  
+           <result name="success" >Login.jsp</result> 
+           <result name="error">Login.jsp</result> 
+        </action>  
+        <action name="Register"
+            class="com.actions.CustomerAction">
+            <result name="success">Register.jsp</result>
+            <result name="error">Login.jsp</result>
+        </action>
+        <action name="CreUser"
+            class="com.actions.RegisterAction">
+            <result name="success">CreUser.jsp</result>
+            <result name="error">CreUser.jsp</result>
+        </action>
+       <action name="AddUser"
+            class="com.actions.AdduserAction">
+            <result name="success">Login.jsp</result>
+            <result name="error">CreUser.jsp</result>
+        </action>
+         <action name="Home"
+            class="com.actions.HomeAction">
+            <result name="success">Home.jsp</result>
+            <result name="error">Login.jsp</result>
+        </action>
+        <action name="UpdateInventory"
+            class="com.actions.UpdInventoryAction">
+            <result name="success">Home.jsp</result>
+            <result name="error">UpdateInventory.jsp</result>
+        </action>
+          <action name="DrViewAppt"
+            class="com.service.DrApptDetailService">
+            <result name="success">DrApptDetails.jsp</result>
+            <result name="error">DoctorViewAppointments.jsp</result>
+        </action>
+        <action name="AddPrescription"
+            class="com.actions.AddPrescriptionAction">
+            <result name="success">Home.jsp</result>
+            <result name="error">AddPrescription.jsp</result>
+        </action>
+        <action name="AddDrReport"
+            class="com.actions.AddDrReportAction">
+            <result name="success">Home.jsp</result>
+            <result name="error">AddReport.jsp</result>
+        </action>
+       <action name="ReviewDoctor"
+            class="com.actions.PatientReviewAction">
+            <result name="success">Home.jsp</result>
+            <result name="error">PatientReviewsDoc.jsp</result>
+        </action>
+         <action name="CancelAppt"
+            class="com.actions.PatientApptCancelAction">
+            <result name="success">Home.jsp</result>
+            <result name="error">PatientCancelsAppointment.jsp</result>
+        </action>
+         <action name="ScheAppt"
+            class="com.actions.ScheduleAppointmentAction" >
+            <result name="success">Home.jsp</result>
+            <result name="error">PatientScheduleApptStep1.jsp</result>
+        </action>
+        <action name="PtAppt"
+            class="com.service.PtAppointmentService">
+            <result name="success">PtAppt.jsp</result>
+            <result name="error">PatientViewAppointment.jsp</result>
+        </action>
+         <action name="PtReport"
+            class="com.service.PtReportService">
+            <result name="success">PtReport.jsp</result>
+            <result name="error">Home.jsp</result>
+        </action>
+          <action name="viewPrescri"
+            class="com.service.ViewPrescriptionService">
+            <result name="success">ViewPrescription.jsp</result>
+            <result name="error">Home.jsp</result>
+        </action>
+         <action name="PtQryPharmacy"
+            class="com.service.QueryPharmacyService">
+            <result name="success">QueryPharmacy.jsp</result>
+            <result name="error">PatientQueryPharmacy.jsp</result>
+        </action>
+         <action name="DrDetails"
+            class="com.service.DrSpecializationService">
+            <result name="success">DrSpecialization.jsp</result>
+            <result name="error">GetDoctorDetails.jsp</result>
+        </action>
+     </package>
+</struts>
