@@ -7,6 +7,6 @@ The patients can schedule/cancel appointment(s) online, locate nearest pharmacie
 A Doctor can view his appointments and add prescription/reports for a patient online. A patient can view his prescription/reports online.
 A pharmacy can update its inventory accordingly for the patient.</p>
 
-<p><a href="https://docs.google.com/presentation/d/1NMdTmYszutj3tyaBNjqWXGNSmOg9LlBn1OjsXQzAEt4/edit?usp=sharing">Slides</p>
+<p><a href="https://docs.google.com/presentation/d/1NMdTmYszutj3tyaBNjqWXGNSmOg9LlBn1OjsXQzAEt4/edit?usp=sharing">Slides</a></p>
 
 <p>The project is built using Java, mySQL </p>
