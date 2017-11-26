@@ -14,11 +14,11 @@ A pharmacy can update its inventory accordingly for the patient.</p>
 <h1>Working of the project </h1>
 <p>This is a mySQL backed <a href ="https://struts.apache.org/">struts 2</a> based frame work</p>
 <ul>
+   <li>WEB-INF has <a href="https://github.com/seshasaisrivatsav/HealthCareManagementSystems/blob/master/WebContent/WEB-INF/web.xml">web.xml</a> which loads the Login page</li>
+   <li>login.jsp has </li>
    <li> </li>
-   <li> </li>
-   <li> </li>
-   <li> </li>
-   <li> </li>
+   <li><a href = "https://github.com/seshasaisrivatsav/HealthCareManagementSystems/blob/master/Resources/db.properties">db properties</a> has database connection information </li>
+   <li> <a href="https://github.com/seshasaisrivatsav/HealthCareManagementSystems/blob/master/Resources/struts.xml">struts.xml</a></li>
    <li> </li>
    <li> </li>
 </ul>
