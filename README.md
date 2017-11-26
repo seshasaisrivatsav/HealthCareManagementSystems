@@ -10,3 +10,16 @@ A pharmacy can update its inventory accordingly for the patient.</p>
 <p><a href="https://docs.google.com/presentation/d/1NMdTmYszutj3tyaBNjqWXGNSmOg9LlBn1OjsXQzAEt4/edit?usp=sharing">Slides</a></p>
 
 <p>The project is built using Java, mySQL </p>
+
+<h1>Working of the project </h1>
+<p>This is a mySQL backed <a href ="https://struts.apache.org/">struts 2</a> based frame work</p>
+<ul>
+   <li> </li>
+   <li> </li>
+   <li> </li>
+   <li> </li>
+   <li> </li>
+   <li> </li>
+   <li> </li>
+</ul>
+  
