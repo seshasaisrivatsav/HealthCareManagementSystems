@@ -15,11 +15,9 @@ A pharmacy can update its inventory accordingly for the patient.</p>
 <p>This is a mySQL backed <a href ="https://struts.apache.org/">struts 2</a> based frame work</p>
 <ul>
    <li>WEB-INF has <a href="https://github.com/seshasaisrivatsav/HealthCareManagementSystems/blob/master/WebContent/WEB-INF/web.xml">web.xml</a> which loads the Login page</li>
-   <li>login.jsp has </li>
-   <li> </li>
+   <li>login.jsp has a POST call which calls the login.action located in <a href="https://github.com/seshasaisrivatsav/HealthCareManagementSystems/blob/master/src/com/actions/LoginAction.java">com.actions.login</a> </li>
+   <li>Login Action calls the <a href="https://github.com/seshasaisrivatsav/HealthCareManagementSystems/blob/master/src/com/service/LoginService.java">LoginService</a> which has the methods .All the services are in "/src/com/service" </li>
+   <li>Database connection happens in LoginService where connection.prepareStatement(hasSQLQueries) in.</li>
    <li><a href = "https://github.com/seshasaisrivatsav/HealthCareManagementSystems/blob/master/Resources/db.properties">db properties</a> has database connection information </li>
    <li> <a href="https://github.com/seshasaisrivatsav/HealthCareManagementSystems/blob/master/Resources/struts.xml">struts.xml</a></li>
-   <li> </li>
-   <li> </li>
 </ul>
-  
